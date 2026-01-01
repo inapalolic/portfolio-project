@@ -30,6 +30,8 @@
     .hero-wrap{
         background: linear-gradient(120deg, #fae3b1, #8a4a0e);
         color:#fff;
+        padding-top: 80px;
+        padding-bottom: 80px;
       }
       
       .hero-wrap .lead{
@@ -37,7 +39,7 @@
       }
       
       .hero-media{
-        width:360px;
+        width:300px;
         max-width:100%;
         aspect-ratio: 1 / 1;
         border-radius:50%;
@@ -124,4 +126,5 @@
     @media (max-width:576px){
     .hero{padding:56px 0;border-radius:0}
     .card-img-top{height:220px}
+
     }
